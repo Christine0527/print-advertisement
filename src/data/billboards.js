@@ -35,212 +35,282 @@ export const billboards = [
     // ========== 臺北市 ==========
     {
         id: 1,
-        city: "臺北市",
-        region: "north",
-        image: "/images/taipei-1.jpg",
+        city: "嘉義市",
+        region: "south",
+        image: "/images/JS006_0.jpg",
         status: "available", // available 可租 / rented 已租
     },
     {
         id: 2,
-        city: "臺北市",
-        region: "north",
-        image: "/images/taipei-2.jpg",
-        status: "available",
-    },
-
-    // ========== 新北市 ==========
-    {
-        id: 3,
-        city: "新北市",
-        region: "north",
-        image: "/images/newtaipei-1.jpg",
-        status: "available",
-    },
-
-    // ========== 基隆市 ==========
-    {
-        id: 4,
-        city: "基隆市",
-        region: "north",
-        image: "/images/keelung-1.jpg",
-        status: "available",
-    },
-
-    // ========== 桃園市 ==========
-    {
-        id: 5,
-        city: "桃園市",
-        region: "north",
-        image: "/images/taoyuan-1.jpg",
-        status: "available",
-    },
-
-    // ========== 新竹縣 ==========
-    {
-        id: 6,
-        city: "新竹縣",
-        region: "north",
-        image: "/images/hsinchu-county-1.jpg",
-        status: "available",
-    },
-
-    // ========== 新竹市 ==========
-    {
-        id: 7,
-        city: "新竹市",
-        region: "north",
-        image: "/images/hsinchu-city-1.jpg",
-        status: "available",
-    },
-
-    // ========== 宜蘭縣 ==========
-    {
-        id: 8,
-        city: "宜蘭縣",
-        region: "north",
-        image: "/images/yilan-1.jpg",
-        status: "available",
-    },
-
-    // ========== 臺中市 ==========
-    {
-        id: 9,
-        city: "臺中市",
-        region: "central",
-        image: "/images/taichung-1.jpg",
-        status: "available",
-    },
-
-    // ========== 苗栗縣 ==========
-    {
-        id: 10,
-        city: "苗栗縣",
-        region: "central",
-        image: "/images/miaoli-1.jpg",
-        status: "available",
-    },
-
-    // ========== 彰化縣 ==========
-    {
-        id: 11,
-        city: "彰化縣",
-        region: "central",
-        image: "/images/changhua-1.jpg",
-        status: "available",
-    },
-
-    // ========== 南投縣 ==========
-    {
-        id: 12,
-        city: "南投縣",
-        region: "central",
-        image: "/images/nantou-1.jpg",
-        status: "available",
-    },
-
-    // ========== 雲林縣 ==========
-    {
-        id: 13,
-        city: "雲林縣",
-        region: "central",
-        image: "/images/yunlin-1.jpg",
-        status: "available",
-    },
-
-    // ========== 嘉義市 ==========
-    {
-        id: 14,
         city: "嘉義市",
         region: "south",
-        image: "/images/chiayi-city-1.jpg",
+        image: "/images/JS061c嘉義市東區文化路147號之1(三角窗).jpg",
         status: "available",
     },
-
-    // ========== 嘉義縣 ==========
+    {
+        id: 3,
+        city: "嘉義市",
+        region: "south",
+        image: "/images/JS117嘉義市西區中興路49號(後火車站)上方整面_0_0.jpg",
+        status: "available",
+    },
+    {
+        id: 4,
+        city: "嘉義市",
+        region: "south",
+        image: "/images/JS185嘉義市西區高鐵大道395-1號(最右邊)_0.jpg",
+        status: "available",
+    },
+    {
+        id: 5,
+        city: "嘉義市",
+        region: "south",
+        image: "/images/JS277嘉義市湖子內段新小段166地號(健康十街_湖美六街)(30x17臺尺)_工作區域 1_0.jpg",
+        status: "available",
+    },
+    {
+        id: 6,
+        city: "嘉義市",
+        region: "south",
+        image: "/images/JX007嘉義縣布袋鎮東港里埔仔厝239號(英賓餐廳對面)_0_0.jpg",
+        status: "available",
+    },
+    {
+        id: 7,
+        city: "嘉義市",
+        region: "south",
+        image: "/images/JX031嘉義縣大林鎮坪林里下潭底23-5號(大林慈濟)右面_0_0.jpg",
+        status: "available",
+    },
+    {
+        id: 8,
+        city: "嘉義市",
+        region: "south",
+        image: "/images/JX123嘉義縣大林鎮排子路4之6號(大林交流道)(32x19.5臺尺)_工作區域 1_0.jpg",
+        status: "available",
+    },
+    {
+        id: 9,
+        city: "嘉義市",
+        region: "south",
+        image: "/images/JX123嘉義縣大林鎮排子路4之6號(大林交流道)(32x19.5臺尺)_工作區域 1_0.jpg",
+        status: "available",
+    },
+    {
+        id: 10,
+        city: "嘉義市",
+        region: "south",
+        image: "/images/JX188嘉義縣民雄鄉建國路二段78號_0.jpg",
+        status: "available",
+    },
+    {
+        id: 11,
+        city: "嘉義市",
+        region: "south",
+        image: "/images/JX190嘉義縣朴子市學府路二段51號稻江技術學院旁(B)_0.jpg",
+        status: "available",
+    },
+    {
+        id: 12,
+        city: "嘉義市",
+        region: "south",
+        image: "/images/JX270嘉義縣義竹鄉義竹村4之6號(義竹橋頭-整大面)-1_0_0.jpg",
+        status: "available",
+    },
+    {
+        id: 13,
+        city: "臺南市",
+        region: "south",
+        image: "/images/TN006a_0.jpg",
+        status: "available",
+    },
+    {
+        id: 14,
+        city: "臺南市",
+        region: "south",
+        image: "/images/TN008c台南市新營區延平路65號(右邊)_0.jpg",
+        status: "available",
+    },
     {
         id: 15,
-        city: "嘉義縣",
+        city: "臺南市",
         region: "south",
-        image: "/images/chiayi-county-1.jpg",
+        image: "/images/TN038台南市仁德區中山路683號2F(仁德交流道)下方小面_0_0_0.jpg",
         status: "available",
     },
-
-    // ========== 臺南市 ==========
     {
         id: 16,
         city: "臺南市",
         region: "south",
-        image: "/images/tainan-1.jpg",
+        image: "/images/TN057台南市白河區康樂路53號(東面)_0_0.jpg",
         status: "available",
     },
     {
         id: 17,
         city: "臺南市",
         region: "south",
-        image: "/images/JS006.jpg", // 你的範例圖片
+        image: "/images/TN058台南市新營區新進路一段258號之5號_0_0_0.jpg", // 你的範例圖片
         status: "available",
     },
-
-    // ========== 高雄市 ==========
     {
         id: 18,
-        city: "高雄市",
+        city: "臺南市",
         region: "south",
-        image: "/images/kaohsiung-1.jpg",
+        image: "/images/TN066台南市學甲區中正路99號(整面)_0_0.jpg",
         status: "available",
     },
-
-    // ========== 屏東縣 ==========
     {
         id: 19,
-        city: "屏東縣",
+        city: "臺南市",
         region: "south",
-        image: "/images/pingtung-1.jpg",
+        image: "/images/TN105台南市官田區南部地號1616號檳榔攤(南部加油站前)_0.jpg",
         status: "available",
     },
-
-    // ========== 花蓮縣 ==========
     {
         id: 20,
-        city: "花蓮縣",
-        region: "east",
-        image: "/images/hualien-1.jpg",
+        city: "臺南市",
+        region: "south",
+        image: "/images/TN109台南市後壁鄉後壁村95-5(近後壁火車站)_0.jpg",
         status: "available",
     },
-
-    // ========== 臺東縣 ==========
     {
         id: 21,
-        city: "臺東縣",
-        region: "east",
-        image: "/images/taitung-1.jpg",
+        city: "臺南市",
+        region: "south",
+        image: "/images/TN111台南市鹽水區朝琴路188號(南榮技術學院旁)_0.jpg",
         status: "available",
     },
-
-    // ========== 澎湖縣 ==========
     {
         id: 22,
-        city: "澎湖縣",
-        region: "islands",
-        image: "/images/penghu-1.jpg",
+        city: "臺南市",
+        region: "south",
+        image: "/images/TN126台南市新市區社內里77之8號_0.jpg",
         status: "available",
     },
-
-    // ========== 金門縣 ==========
     {
         id: 23,
-        city: "金門縣",
-        region: "islands",
-        image: "/images/kinmen-1.jpg",
+        city: "臺南市",
+        region: "south",
+        image: "/images/TN162台南市新營區民治路41號(面派出所)_0.jpg",
         status: "available",
     },
-
-    // ========== 連江縣 ==========
     {
         id: 24,
-        city: "連江縣",
-        region: "islands",
-        image: "/images/lienchiang-1.jpg",
+        city: "臺南市",
+        region: "south",
+        image: "/images/TN167台南市新營區民治路146-8號(南新國中對面)_0_0.jpg",
+        status: "available",
+    },
+    {
+        id: 25,
+        city: "臺南市",
+        region: "south",
+        image: "/images/TN179台南市新營區健康路19號(左邊)_0_0.jpg",
+        status: "available",
+    },
+    {
+        id: 26,
+        city: "臺南市",
+        region: "south",
+        image: "/images/TN236台南市新營區開元路民治陸橋(側面)_0_0.jpg",
+        status: "available",
+    },
+    {
+        id: 27,
+        city: "臺南市",
+        region: "south",
+        image: "/images/TN252.台南市新營區民治路8-7號(同濟街口)A面_0_0_0_0_0.jpg",
+        status: "available",
+    },
+    {
+        id: 28,
+        city: "臺南市",
+        region: "south",
+        image: "/images/TN299台南市後壁崁頂南84鄉道(往後壁方向)-01_0_0_0_0.jpg",
+        status: "available",
+    },
+    {
+        id: 29,
+        city: "臺南市",
+        region: "south",
+        image: "/images/TN301台南市善化區大成路70號_0.jpg",
+        status: "available",
+    },
+    {
+        id: 30,
+        city: "臺南市",
+        region: "south",
+        image: "/images/TN515台南市新營區復興路307號(甲一飯包上方)_0.jpg",
+        status: "available",
+    },
+    {
+        id: 31,
+        city: "臺南市",
+        region: "south",
+        image: "/images/TN518台南市新營區太子路72號_0.jpg",
+        status: "available",
+    },
+    {
+        id: 32,
+        city: "臺南市",
+        region: "south",
+        image: "/images/TN522台南市安南區安明路四段735號_0.jpg",
+        status: "available",
+    },
+    {
+        id: 33,
+        city: "臺南市",
+        region: "south",
+        image: "/images/TN523台南市善化區進學路846號_0.jpg",
+        status: "available",
+    },
+    {
+        id: 34,
+        city: "臺南市",
+        region: "south",
+        image: "/images/TN527台南市麻豆區新生南路6號_0.jpg",
+        status: "available",
+    },
+    {
+        id: 35,
+        city: "臺南市",
+        region: "south",
+        image: "/images/TN532台南市永康區復國路88號_0.jpg",
+        status: "available",
+    },
+    {
+        id: 36,
+        city: "臺南市",
+        region: "south",
+        image: "/images/TN535台南市鹽水區忠孝路221號(整面)_0.jpg",
+        status: "available",
+    },
+    {
+        id: 37,
+        city: "臺中市",
+        region: "central",
+        image: "/images/TZ002_0.jpg",
+        status: "available",
+    },
+    {
+        id: 38,
+        city: "臺中市",
+        region: "central",
+        image: "/images/TZ003台中市南屯區忠勇路10-75號(20x38臺尺)_工作區域 1_0.jpg",
+        status: "available",
+    },
+    {
+        id: 39,
+        city: "雲林縣",
+        region: "central",
+        image: "/images/YL007雲林縣北港鎮華勝路130號_0_0.jpg",
+        status: "available",
+    },
+    {
+        id: 40,
+        city: "雲林縣",
+        region: "central",
+        image: "/images/YL028雲林縣虎尾鎮中正路15號9樓(虎尾中正圓環停車場)_工作區域 1_0_0.jpg",
         status: "available",
     },
 

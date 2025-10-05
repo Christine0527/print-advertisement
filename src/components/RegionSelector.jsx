@@ -59,29 +59,42 @@ const CitiesGrid = styled.div`
 export const RegionSelector = ({ onCitySelect, citiesCount }) => {
     return (
         <Container>
-            {Object.entries(regions).map(([regionKey, regionData]) => (
-                <RegionSection key={regionKey}>
-                    <RegionHeader>
-                        <RegionIndicator $color={regionData.color} />
-                        <RegionTitle>{regionData.name}</RegionTitle>
-                    </RegionHeader>
+            {Object.entries(regions).map(([regionKey, regionData]) => {
+                // 過濾出有看板的縣市
+                const citiesWithBillboards = regionData.cities.filter((city) => {
+                    const count = citiesCount.get(city) || 0;
+                    return count > 0;
+                });
 
-                    <CitiesGrid>
-                        {regionData.cities.map((city) => {
-                            const count = citiesCount.get(city) || 0;
-                            return (
-                                <CityCard
-                                    key={city}
-                                    city={city}
-                                    count={count}
-                                    regionColor={regionData.color}
-                                    onClick={() => onCitySelect(city)}
-                                />
-                            );
-                        })}
-                    </CitiesGrid>
-                </RegionSection>
-            ))}
+                // 如果這個區域沒有任何看板，就不顯示整個區域
+                if (citiesWithBillboards.length === 0) {
+                    return null;
+                }
+
+                return (
+                    <RegionSection key={regionKey}>
+                        <RegionHeader>
+                            <RegionIndicator $color={regionData.color} />
+                            <RegionTitle>{regionData.name}</RegionTitle>
+                        </RegionHeader>
+
+                        <CitiesGrid>
+                            {citiesWithBillboards.map((city) => {
+                                const count = citiesCount.get(city) || 0;
+                                return (
+                                    <CityCard
+                                        key={city}
+                                        city={city}
+                                        count={count}
+                                        regionColor={regionData.color}
+                                        onClick={() => onCitySelect(city)}
+                                    />
+                                );
+                            })}
+                        </CitiesGrid>
+                    </RegionSection>
+                );
+            })}
         </Container>
     );
 };
