@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
     plugins: [react()],
-    base: '/print＿＿advertisement/', 
+    base: '/print__advertisement/', 
 });
