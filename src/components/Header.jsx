@@ -37,7 +37,7 @@ const Subtitle = styled.p`
 export const Header = () => {
     return (
         <HeaderContainer>
-            <Title>🏢 台灣廣告看板租賃平台</Title>
+            <Title>Logo鳳鳴廣告户外看板</Title>
             <Subtitle>選擇縣市，查看可租廣告看板</Subtitle>
         </HeaderContainer>
     );

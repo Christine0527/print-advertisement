@@ -3,6 +3,7 @@ import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./styles/GlobalStyles";
 import { theme } from "./styles/theme";
 import { Header } from "./components/Header";
+import { FloatingContactButton } from "./components/FloatingContactButton";
 import { RegionSelector } from "./components/RegionSelector";
 import { BillboardGrid } from "./components/BillboardGrid";
 import { getCitiesWithCount, getBillboardsByCity } from "./data/billboards";
@@ -27,6 +28,7 @@ function App() {
         <ThemeProvider theme={theme}>
             <GlobalStyles />
             <Header />
+            <FloatingContactButton />
 
             {selectedCity ? (
                 <BillboardGrid city={selectedCity} billboards={billboards} onBack={handleBack} />

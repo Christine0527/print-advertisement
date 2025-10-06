@@ -126,7 +126,6 @@ export const BillboardGrid = ({ city, billboards, onBack }) => {
                                 {availableCount}
                             </span>
                         </StatItem>
-               
                     </Stats>
                 </div>
                 <BackButton onClick={onBack}>← 返回選擇縣市</BackButton>
