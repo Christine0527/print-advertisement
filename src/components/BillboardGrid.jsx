@@ -15,20 +15,29 @@ const Container = styled.div`
 
 const Header = styled.div`
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     margin-bottom: ${theme.spacing.xl};
-    flex-wrap: wrap;
     gap: ${theme.spacing.md};
+
+    @media (max-width: ${theme.breakpoints.mobile}) {
+        gap: ${theme.spacing.sm};
+    }
+`;
+
+const TitleSection = styled.div`
+    flex: 1;
+    min-width: 0; /* 允許內容收縮 */
 `;
 
 const Title = styled.h2`
     font-size: 1.75rem;
     font-weight: 600;
     color: ${theme.colors.text.primary};
+    margin-bottom: ${theme.spacing.xs};
 
     @media (max-width: ${theme.breakpoints.mobile}) {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 `;
 
@@ -41,6 +50,8 @@ const BackButton = styled.button`
     font-size: 1rem;
     font-weight: 600;
     transition: all ${theme.transitions.normal};
+    white-space: nowrap;
+    flex-shrink: 0; /* 防止按鈕被壓縮 */
 
     &:hover {
         background: ${theme.colors.primary};
@@ -48,10 +59,6 @@ const BackButton = styled.button`
         transform: translateX(-4px);
     }
 
-    @media (max-width: ${theme.breakpoints.mobile}) {
-        padding: ${theme.spacing.sm} ${theme.spacing.md};
-        font-size: 0.875rem;
-    }
 `;
 
 const Grid = styled.div`
@@ -82,9 +89,12 @@ const EmptyState = styled.div`
 
 const Stats = styled.div`
     display: flex;
-    gap: ${theme.spacing.lg};
-    margin-bottom: ${theme.spacing.lg};
+    gap: ${theme.spacing.md};
     flex-wrap: wrap;
+
+    @media (max-width: ${theme.breakpoints.mobile}) {
+        gap: ${theme.spacing.sm};
+    }
 `;
 
 const StatItem = styled.div`
@@ -104,6 +114,18 @@ const StatItem = styled.div`
         font-weight: 600;
         font-size: 1.125rem;
     }
+
+    @media (max-width: ${theme.breakpoints.mobile}) {
+        padding: ${theme.spacing.xs} ${theme.spacing.sm};
+
+        span:first-child {
+            font-size: 0.75rem;
+        }
+
+        span:last-child {
+            font-size: 0.875rem;
+        }
+    }
 `;
 
 export const BillboardGrid = ({ city, billboards, onBack }) => {
@@ -113,7 +135,7 @@ export const BillboardGrid = ({ city, billboards, onBack }) => {
     return (
         <Container>
             <Header>
-                <div>
+                <TitleSection>
                     <Title>{city} - 廣告看板</Title>
                     <Stats>
                         <StatItem>
@@ -127,7 +149,7 @@ export const BillboardGrid = ({ city, billboards, onBack }) => {
                             </span>
                         </StatItem>
                     </Stats>
-                </div>
+                </TitleSection>
                 <BackButton onClick={onBack}>← 返回選擇縣市</BackButton>
             </Header>
 

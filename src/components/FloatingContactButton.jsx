@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import styled from "styled-components";
 import { theme } from "../styles/theme";
 
@@ -191,6 +191,14 @@ const CardImage = styled.img`
 
 export const FloatingContactButton = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const [imageLoaded, setImageLoaded] = useState(false);
+
+    // 預載入圖片
+    useEffect(() => {
+        const img = new Image();
+        img.src = "/print-advertisement/images/company-card.jpg";
+        img.onload = () => setImageLoaded(true);
+    }, []);
 
     return (
         <>
