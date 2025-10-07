@@ -523,25 +523,25 @@ Error generating stack: `+l.message+`
     }
 `,$g=T.div`
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     margin-bottom: ${p.spacing.xl};
-    flex-wrap: wrap;
     gap: ${p.spacing.md};
 
     @media (max-width: ${p.breakpoints.mobile}) {
-        flex-direction: column;
-        align-items: stretch;
+        gap: ${p.spacing.sm};
     }
 `,Ng=T.div`
     flex: 1;
+    min-width: 0; /* 允許內容收縮 */
 `,Pg=T.h2`
     font-size: 1.75rem;
     font-weight: 600;
     color: ${p.colors.text.primary};
+    margin-bottom: ${p.spacing.xs};
 
     @media (max-width: ${p.breakpoints.mobile}) {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 `,zg=T.button`
     padding: ${p.spacing.md} ${p.spacing.lg};
@@ -553,6 +553,7 @@ Error generating stack: `+l.message+`
     font-weight: 600;
     transition: all ${p.transitions.normal};
     white-space: nowrap;
+    flex-shrink: 0; /* 防止按鈕被壓縮 */
 
     &:hover {
         background: ${p.colors.primary};
@@ -561,9 +562,8 @@ Error generating stack: `+l.message+`
     }
 
     @media (max-width: ${p.breakpoints.mobile}) {
-        padding: ${p.spacing.sm} ${p.spacing.md};
-        font-size: 0.875rem;
-        width: 100%;
+        padding: ${p.spacing.xs} ${p.spacing.sm};
+        font-size: 0.75rem;
     }
 `,jg=T.div`
     display: grid;
@@ -589,9 +589,12 @@ Error generating stack: `+l.message+`
     }
 `,Rg=T.div`
     display: flex;
-    gap: ${p.spacing.lg};
-    margin-bottom: ${p.spacing.lg};
+    gap: ${p.spacing.md};
     flex-wrap: wrap;
+
+    @media (max-width: ${p.breakpoints.mobile}) {
+        gap: ${p.spacing.sm};
+    }
 `,xa=T.div`
     padding: ${p.spacing.md} ${p.spacing.lg};
     background: white;
@@ -608,5 +611,17 @@ Error generating stack: `+l.message+`
         color: ${p.colors.text.primary};
         font-weight: 600;
         font-size: 1.125rem;
+    }
+
+    @media (max-width: ${p.breakpoints.mobile}) {
+        padding: ${p.spacing.xs} ${p.spacing.sm};
+
+        span:first-child {
+            font-size: 0.75rem;
+        }
+
+        span:last-child {
+            font-size: 0.875rem;
+        }
     }
 `,Ig=({city:e,billboards:t,onBack:n})=>{const r=t.filter(i=>i.status==="available").length;return t.filter(i=>i.status==="rented").length,N.jsxs(Cg,{children:[N.jsxs($g,{children:[N.jsxs(Ng,{children:[N.jsxs(Pg,{children:[e," - 廣告看板"]}),N.jsxs(Rg,{children:[N.jsxs(xa,{children:[N.jsx("span",{children:"總數量"}),N.jsx("span",{children:t.length})]}),N.jsxs(xa,{children:[N.jsx("span",{children:"可租"}),N.jsx("span",{style:{color:p.colors.status.available},children:r})]})]})]}),N.jsx(zg,{onClick:n,children:"← 返回選擇縣市"})]}),t.length>0?N.jsx(jg,{children:t.map(i=>N.jsx(_g,{billboard:i},i.id))}):N.jsxs(Tg,{children:[N.jsx("div",{children:"📭"}),N.jsx("div",{children:"此縣市目前沒有廣告看板資料"})]})]})};function Lg(){const[e,t]=We.useState(null),n=rg(),r=o=>{t(o),window.scrollTo({top:0,behavior:"smooth"})},i=()=>{t(null),window.scrollTo({top:0,behavior:"smooth"})},l=e?ng(e):[];return N.jsxs(Oh,{theme:p,children:[N.jsx(Ah,{}),N.jsx(Qh,{}),!e&&N.jsx(eg,{}),e?N.jsx(Ig,{city:e,billboards:l,onBack:i}):N.jsx(hg,{onCitySelect:r,citiesCount:n})]})}Jl.createRoot(document.getElementById("root")).render(N.jsx(Ie.StrictMode,{children:N.jsx(Lg,{})}));
