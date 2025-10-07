@@ -28,7 +28,7 @@ function App() {
         <ThemeProvider theme={theme}>
             <GlobalStyles />
             <Header />
-            <FloatingContactButton />
+            {!selectedCity && <FloatingContactButton />}
 
             {selectedCity ? (
                 <BillboardGrid city={selectedCity} billboards={billboards} onBack={handleBack} />

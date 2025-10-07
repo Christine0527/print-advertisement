@@ -213,7 +213,10 @@ export const FloatingContactButton = () => {
                 <CardModal onClick={() => setIsOpen(false)}>
                     <CardContent onClick={(e) => e.stopPropagation()}>
                         <CloseButton onClick={() => setIsOpen(false)}>×</CloseButton>
-                        <CardImage src="/images/company-card.jpg" alt="鳳鳴廣告有限公司名片" />
+                        <CardImage
+                            src="/print-advertisement/images/company-card.jpg"
+                            alt="鳳鳴廣告有限公司名片"
+                        />
                     </CardContent>
                 </CardModal>
             )}
