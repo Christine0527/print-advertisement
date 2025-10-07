@@ -563,7 +563,7 @@ Error generating stack: `+l.message+`
 
     @media (max-width: ${p.breakpoints.mobile}) {
         padding: ${p.spacing.xs} ${p.spacing.sm};
-        font-size: 0.75rem;
+        font-size: 0.875rem;
     }
 `,jg=T.div`
     display: grid;
