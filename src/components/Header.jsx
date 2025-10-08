@@ -60,7 +60,7 @@ export const Header = () => {
                 <Logo src={`${import.meta.env.BASE_URL}images/logo.png`} alt="鳳鳴廣告 Logo" />
                 <Title>鳳鳴廣告户外看板</Title>
             </TitleWrapper>
-            <Subtitle>選擇縣市，查看可租廣告看板</Subtitle>
+            <Subtitle>如果需要協尋指定地點之廣告看板請致電0931-888-859蔣小姐24小時專線服務</Subtitle>
         </HeaderContainer>
     );
 };
