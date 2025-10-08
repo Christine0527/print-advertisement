@@ -206,7 +206,7 @@ export const FloatingContactButton = () => {
                 <MiniCard>
                     <MiniCardTitle>🏢 鳳鳴廣告有限公司</MiniCardTitle>
                     <MiniCardInfo>
-                        <strong>📞</strong> 0931-888-859
+                        <strong>📞</strong> 0931-888-859蔣小姐
                     </MiniCardInfo>
                     <MiniCardInfo>
                         <strong>📍</strong> 台南市新營區中正路22巷10號
