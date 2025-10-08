@@ -107,7 +107,6 @@ Error generating stack: `+l.message+`
 `,Wh=T.p`
     text-align: center;
     margin-top: ${p.spacing.sm};
-    opacity: 0.9;
     font-size: 1rem;
 
     @media (max-width: ${p.breakpoints.mobile}) {
