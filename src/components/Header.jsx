@@ -45,7 +45,6 @@ const Title = styled.h1`
 const Subtitle = styled.p`
     text-align: center;
     margin-top: ${theme.spacing.sm};
-    opacity: 0.9;
     font-size: 1rem;
 
     @media (max-width: ${theme.breakpoints.mobile}) {
