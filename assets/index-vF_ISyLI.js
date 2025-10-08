@@ -113,7 +113,7 @@ Error generating stack: `+l.message+`
     @media (max-width: ${p.breakpoints.mobile}) {
         font-size: 0.875rem;
     }
-`,Qh=()=>N.jsxs(Uh,{children:[N.jsxs(Bh,{children:[N.jsx(Vh,{src:"/print-advertisement/images/logo.png",alt:"鳳鳴廣告 Logo"}),N.jsx(Hh,{children:"鳳鳴廣告户外看板"})]}),N.jsx(Wh,{children:"選擇縣市，查看可租廣告看板"})]}),Yh=T.div`
+`,Qh=()=>N.jsxs(Uh,{children:[N.jsxs(Bh,{children:[N.jsx(Vh,{src:"/print-advertisement/images/logo.png",alt:"鳳鳴廣告 Logo"}),N.jsx(Hh,{children:"鳳鳴廣告户外看板"})]}),N.jsx(Wh,{children:"如果需要協尋指定地點之廣告看板請致電0931-888-859蔣小姐24小時專線服務"})]}),Yh=T.div`
     position: fixed;
     bottom: 2rem;
     right: 2rem;
