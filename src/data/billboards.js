@@ -69,17 +69,31 @@ export const billboards = [
         status: "available",
     },
     {
+        id: 42,
+        city: "嘉義市",
+        region: "south",
+        image: "/print-advertisement/images/JS301嘉義市東區彌陀路70巷1號(C面)_0_0.jpg",
+        status: "available",
+    },
+    {
+        id: 43,
+        city: "嘉義市",
+        region: "south",
+        image: "/print-advertisement/images/JS302嘉義市東區彌陀路70巷1號(D面)_0_0.jpg",
+        status: "available",
+    },
+    {
+        id: 44,
+        city: "嘉義市",
+        region: "south",
+        image: "/print-advertisement/images/JS309嘉義市西區興業西路40號經國新城R棟-西面_0.jpg",
+        status: "available",
+    },
+    {
         id: 6,
         city: "嘉義縣",
         region: "south",
         image: "/print-advertisement/images/JX007嘉義縣布袋鎮東港里埔仔厝239號(英賓餐廳對面)_0_0.jpg",
-        status: "available",
-    },
-    {
-        id: 7,
-        city: "嘉義縣",
-        region: "south",
-        image: "/print-advertisement/images/JX031嘉義縣大林鎮坪林里下潭底23-5號(大林慈濟)右面_0_0.jpg",
         status: "available",
     },
     {
@@ -117,117 +131,8 @@ export const billboards = [
         image: "/print-advertisement/images/JX270嘉義縣義竹鄉義竹村4之6號(義竹橋頭-整大面)-1_0_0.jpg",
         status: "available",
     },
-    // ========== 臺南市（由南到北排序）==========
-    // 南部：仁德區
-    {
-        id: 13,
-        city: "臺南市",
-        region: "south",
-        image: "/print-advertisement/images/TN038台南市仁德區中山路683號2F(仁德交流道)下方小面_0_0_0.jpg",
-        status: "available",
-    },
-    // 南部：永康區
-    {
-        id: 14,
-        city: "臺南市",
-        region: "south",
-        image: "/print-advertisement/images/TN532台南市永康區復國路88號_0.jpg",
-        status: "available",
-    },
-    // 南部：安南區
-    {
-        id: 15,
-        city: "臺南市",
-        region: "south",
-        image: "/print-advertisement/images/TN522台南市安南區安明路四段735號_0.jpg",
-        status: "available",
-    },
-    // 中部：新市區
-    {
-        id: 16,
-        city: "臺南市",
-        region: "south",
-        image: "/print-advertisement/images/TN126台南市新市區社內里77之8號_0.jpg",
-        status: "available",
-    },
-    // 中部：善化區
-    {
-        id: 17,
-        city: "臺南市",
-        region: "south",
-        image: "/print-advertisement/images/TN301台南市善化區大成路70號_0.jpg",
-        status: "available",
-    },
-    {
-        id: 18,
-        city: "臺南市",
-        region: "south",
-        image: "/print-advertisement/images/TN523台南市善化區進學路846號_0.jpg",
-        status: "available",
-    },
-    // 中部：官田區
-    {
-        id: 19,
-        city: "臺南市",
-        region: "south",
-        image: "/print-advertisement/images/TN105台南市官田區南部地號1616號檳榔攤(南部加油站前)_0.jpg",
-        status: "available",
-    },
-    // 中部：麻豆區
-    {
-        id: 20,
-        city: "臺南市",
-        region: "south",
-        image: "/print-advertisement/images/TN527台南市麻豆區新生南路6號_0.jpg",
-        status: "available",
-    },
-    // 北部：學甲區
-    {
-        id: 21,
-        city: "臺南市",
-        region: "south",
-        image: "/print-advertisement/images/TN066台南市學甲區中正路99號(整面)_0_0.jpg",
-        status: "available",
-    },
-    // 北部：鹽水區
-    {
-        id: 22,
-        city: "臺南市",
-        region: "south",
-        image: "/print-advertisement/images/TN111台南市鹽水區朝琴路188號(南榮技術學院旁)_0.jpg",
-        status: "available",
-    },
-    {
-        id: 23,
-        city: "臺南市",
-        region: "south",
-        image: "/print-advertisement/images/TN535台南市鹽水區忠孝路221號(整面)_0.jpg",
-        status: "available",
-    },
-    // 北部：白河區
-    {
-        id: 24,
-        city: "臺南市",
-        region: "south",
-        image: "/print-advertisement/images/TN057台南市白河區康樂路53號(東面)_0_0.jpg",
-        status: "available",
-    },
-    // 北部：後壁區
-    {
-        id: 25,
-        city: "臺南市",
-        region: "south",
-        image: "/print-advertisement/images/TN109台南市後壁鄉後壁村95-5(近後壁火車站)_0.jpg",
-        status: "available",
-    },
-    {
-        id: 26,
-        city: "臺南市",
-        region: "south",
-        image: "/print-advertisement/images/TN299台南市後壁崁頂南84鄉道(往後壁方向)-01_0_0_0_0.jpg",
-        status: "available",
-    },
-    // 北部：新營區
+    // ========== 臺南市（按TN編號排序）==========
+    // TN006a
     {
         id: 27,
         city: "臺南市",
@@ -235,6 +140,15 @@ export const billboards = [
         image: "/print-advertisement/images/TN006a_0.jpg",
         status: "available",
     },
+    // TN007b
+    {
+        id: 46,
+        city: "臺南市",
+        region: "south",
+        image: "/print-advertisement/images/TN007b台南市新營區延平路65號(中間).jpg",
+        status: "available",
+    },
+    // TN008c
     {
         id: 28,
         city: "臺南市",
@@ -242,6 +156,23 @@ export const billboards = [
         image: "/print-advertisement/images/TN008c台南市新營區延平路65號(右邊)_0.jpg",
         status: "available",
     },
+    // TN038
+    {
+        id: 13,
+        city: "臺南市",
+        region: "south",
+        image: "/print-advertisement/images/TN038台南市仁德區中山路683號2F(仁德交流道)下方小面_0_0_0.jpg",
+        status: "available",
+    },
+    // TN057
+    {
+        id: 24,
+        city: "臺南市",
+        region: "south",
+        image: "/print-advertisement/images/TN057台南市白河區康樂路53號(東面)_0_0.jpg",
+        status: "available",
+    },
+    // TN058
     {
         id: 29,
         city: "臺南市",
@@ -249,6 +180,47 @@ export const billboards = [
         image: "/print-advertisement/images/TN058台南市新營區新進路一段258號之5號_0_0_0.jpg",
         status: "available",
     },
+    // TN066
+    {
+        id: 21,
+        city: "臺南市",
+        region: "south",
+        image: "/print-advertisement/images/TN066台南市學甲區中正路99號(整面)_0_0.jpg",
+        status: "available",
+    },
+    // TN105
+    {
+        id: 19,
+        city: "臺南市",
+        region: "south",
+        image: "/print-advertisement/images/TN105台南市官田區南部地號1616號檳榔攤(南部加油站前)_0.jpg",
+        status: "available",
+    },
+    // TN109
+    {
+        id: 25,
+        city: "臺南市",
+        region: "south",
+        image: "/print-advertisement/images/TN109台南市後壁鄉後壁村95-5(近後壁火車站)_0.jpg",
+        status: "available",
+    },
+    // TN111
+    {
+        id: 22,
+        city: "臺南市",
+        region: "south",
+        image: "/print-advertisement/images/TN111台南市鹽水區朝琴路188號(南榮技術學院旁)_0.jpg",
+        status: "available",
+    },
+    // TN126
+    {
+        id: 16,
+        city: "臺南市",
+        region: "south",
+        image: "/print-advertisement/images/TN126台南市新市區社內里77之8號_0.jpg",
+        status: "available",
+    },
+    // TN162
     {
         id: 30,
         city: "臺南市",
@@ -256,6 +228,7 @@ export const billboards = [
         image: "/print-advertisement/images/TN162台南市新營區民治路41號(面派出所)_0.jpg",
         status: "available",
     },
+    // TN167
     {
         id: 31,
         city: "臺南市",
@@ -263,6 +236,7 @@ export const billboards = [
         image: "/print-advertisement/images/TN167台南市新營區民治路146-8號(南新國中對面)_0_0.jpg",
         status: "available",
     },
+    // TN179
     {
         id: 32,
         city: "臺南市",
@@ -270,6 +244,7 @@ export const billboards = [
         image: "/print-advertisement/images/TN179台南市新營區健康路19號(左邊)_0_0.jpg",
         status: "available",
     },
+    // TN236
     {
         id: 33,
         city: "臺南市",
@@ -277,6 +252,7 @@ export const billboards = [
         image: "/print-advertisement/images/TN236台南市新營區開元路民治陸橋(側面)_0_0.jpg",
         status: "available",
     },
+    // TN252
     {
         id: 34,
         city: "臺南市",
@@ -284,6 +260,23 @@ export const billboards = [
         image: "/print-advertisement/images/TN252.台南市新營區民治路8-7號(同濟街口)A面_0_0_0_0_0.jpg",
         status: "available",
     },
+    // TN299
+    {
+        id: 26,
+        city: "臺南市",
+        region: "south",
+        image: "/print-advertisement/images/TN299台南市後壁崁頂南84鄉道(往後壁方向)-01_0_0_0_0.jpg",
+        status: "available",
+    },
+    // TN301
+    {
+        id: 17,
+        city: "臺南市",
+        region: "south",
+        image: "/print-advertisement/images/TN301台南市善化區大成路70號_0.jpg",
+        status: "available",
+    },
+    // TN515
     {
         id: 35,
         city: "臺南市",
@@ -291,11 +284,52 @@ export const billboards = [
         image: "/print-advertisement/images/TN515台南市新營區復興路307號(甲一飯包上方)_0.jpg",
         status: "available",
     },
+    // TN518
     {
         id: 36,
         city: "臺南市",
         region: "south",
         image: "/print-advertisement/images/TN518台南市新營區太子路72號_0.jpg",
+        status: "available",
+    },
+    // TN522
+    {
+        id: 15,
+        city: "臺南市",
+        region: "south",
+        image: "/print-advertisement/images/TN522台南市安南區安明路四段735號_0.jpg",
+        status: "available",
+    },
+    // TN523
+    {
+        id: 45,
+        city: "臺南市",
+        region: "south",
+        image: "/print-advertisement/images/TN523台南市善化區溪美里溪尾846號.jpg",
+        status: "available",
+    },
+    // TN527
+    {
+        id: 20,
+        city: "臺南市",
+        region: "south",
+        image: "/print-advertisement/images/TN527台南市麻豆區新生南路6號_0.jpg",
+        status: "available",
+    },
+    // TN532
+    {
+        id: 14,
+        city: "臺南市",
+        region: "south",
+        image: "/print-advertisement/images/TN532台南市永康區復國路88號_0.jpg",
+        status: "available",
+    },
+    // TN535
+    {
+        id: 23,
+        city: "臺南市",
+        region: "south",
+        image: "/print-advertisement/images/TN535台南市鹽水區忠孝路221號(整面)_0.jpg",
         status: "available",
     },
     {
