@@ -62,6 +62,13 @@ export const billboards = [
         status: "available",
     },
     {
+        id: 47,
+        city: "嘉義市",
+        region: "south",
+        image: "/print-advertisement/images/JS190嘉義市東區忠孝路543-5號(嘉基停車場鐵架)_0.jpg",
+        status: "available",
+    },
+    {
         id: 5,
         city: "嘉義市",
         region: "south",
@@ -87,6 +94,48 @@ export const billboards = [
         city: "嘉義市",
         region: "south",
         image: "/print-advertisement/images/JS309嘉義市西區興業西路40號經國新城R棟-西面_0.jpg",
+        status: "available",
+    },
+    {
+        id: 48,
+        city: "嘉義市",
+        region: "south",
+        image: "/print-advertisement/images/JS311嘉義市東區忠孝路541號(前方鐵架)_0.jpg",
+        status: "available",
+    },
+    {
+        id: 49,
+        city: "嘉義市",
+        region: "south",
+        image: "/print-advertisement/images/JS312嘉義市東區忠孝路541號(後方鐵架)_0.jpg",
+        status: "available",
+    },
+    {
+        id: 50,
+        city: "嘉義市",
+        region: "south",
+        image: "/print-advertisement/images/JS316嘉義市東區忠孝路547號(A面)_0.jpg",
+        status: "available",
+    },
+    {
+        id: 51,
+        city: "嘉義市",
+        region: "south",
+        image: "/print-advertisement/images/JS317嘉義市東區忠孝路547號(B面)_0.jpg",
+        status: "available",
+    },
+    {
+        id: 52,
+        city: "嘉義市",
+        region: "south",
+        image: "/print-advertisement/images/JS318嘉義市東區忠孝路547號(C面)_0.jpg",
+        status: "available",
+    },
+    {
+        id: 53,
+        city: "嘉義市",
+        region: "south",
+        image: "/print-advertisement/images/JS319嘉義市東區忠孝路547號(A+B+C面)_0.jpg",
         status: "available",
     },
     {
@@ -140,14 +189,7 @@ export const billboards = [
         image: "/print-advertisement/images/TN006a_0.jpg",
         status: "available",
     },
-    // TN007b
-    {
-        id: 46,
-        city: "臺南市",
-        region: "south",
-        image: "/print-advertisement/images/TN007b台南市新營區延平路65號(中間).jpg",
-        status: "available",
-    },
+
     // TN008c
     {
         id: 28,
@@ -234,6 +276,14 @@ export const billboards = [
         city: "臺南市",
         region: "south",
         image: "/print-advertisement/images/TN167台南市新營區民治路146-8號(南新國中對面)_0_0.jpg",
+        status: "available",
+    },
+    // TN173
+    {
+        id: 54,
+        city: "臺南市",
+        region: "south",
+        image: "/print-advertisement/images/TN173台南市新營區延平路64號.JPG",
         status: "available",
     },
     // TN179
